@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="LEGEND PRESET — Komuniti berkongsi preset, request edit, tutorial & tips editing. Percuma, mesra beginner, dimoderasi aktif.">
+  <meta name="theme-color" content="#05060f">
+  <meta property="og:image" content="./Profile_Picture.jpg">
+  <meta property="og:title" content="LEGEND PRESET — Share • Edit • Learn • Improve">
+  <meta property="og:description" content="Tempat untuk berkongsi, mencari dan bertukar preset/edit bersama-sama.">
+  <meta property="og:type" content="website">
+  <title>LEGEND PRESET — Share • Edit • Learn • Improve</title>
+
+  <link rel="icon" type="image/jpeg" href="./Profile_Picture.jpg">
+
+  <!-- Font sistem Tahoe + Jakarta sebagai pelengkap -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#kandungan">Langkau ke kandungan</a>
+
+  <!-- Wallpaper Tahoe -->
+  <div class="bg-scene" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="orb orb-4"></div>
+  </div>
+
+  <!-- ===== MENUBAR TAHOE ===== -->
+  <div class="menubar-wrap">
+    <nav class="menubar" id="siteNav" aria-label="Navigasi utama">
+      <span class="traffic" aria-hidden="true"><i></i><i></i><i></i></span>
+      <a class="brand" href="#beranda" aria-label="LEGEND PRESET — ke atas">
+        <span class="app-icon" aria-hidden="true">
+          <img src="./Profile_Picture.jpg" alt="" width="34" height="34">
+        </span>
+        <span><b>LEGEND PRESET</b><small>Komuniti Editor</small></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Buka menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <ul class="nav-links" id="navMenu">
+        <li><a href="#kelebihan" data-nav="kelebihan">Kelebihan</a></li>
+        <li><a href="#peraturan" data-nav="peraturan">Peraturan</a></li>
+        <li><a href="#cara-join" data-nav="cara-join">Cara Join</a></li>
+        <li><a href="#faq" data-nav="faq">FAQ</a></li>
+        <li><a class="btn btn-primary btn-sm" data-wa-link href="https://chat.whatsapp.com/C8zTy45Ga4wAqZVcz94DAY?s=cl&p=a&mlu=4&ilr=4">Join</a></li>
+      </ul>
+      <span class="menu-clock" id="menuClock" aria-hidden="true">--:--</span>
+    </nav>
+  </div>
+
+  <main id="kandungan">
+    <!-- ===== HERO (window) ===== -->
+    <div class="container section">
+      <header class="window hero-window" id="beranda" data-reveal>
+        <div class="window-bar" aria-hidden="true">
+          <span class="traffic"><i></i><i></i><i></i></span>
+          <span class="window-title">legend-preset <span>— Komuniti</span></span>
+          <span class="window-actions">
+            <a class="chip-btn" data-wa-link href="https://chat.whatsapp.com/C8zTy45Ga4wAqZVcz94DAY?s=cl&p=a&mlu=4&ilr=4">Kongsi</a>
+          </span>
+        </div>
+        <div class="window-body">
+          <p class="hero-badge"><span class="dot"></span>Komuniti aktif • Percuma • Mesra beginner</p>
+          <img class="hero-logo" src="./Profile_Picture.jpg" alt="Logo LEGEND PRESET — mahkota krom dengan api biru" width="264" height="264" fetchpriority="high">
+          <h1 class="hero-title">LEGEND PRESET</h1>
+          <p class="hero-subtitle">Share • Edit • Learn • Improve</p>
+          <p class="hero-desc">Tempat untuk berkongsi, mencari dan bertukar preset/edit bersama-sama. Request preset, kongsi tutorial, dan upgrade skill editing anda.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" data-wa-link
+               href="https://chat.whatsapp.com/C8zTy45Ga4wAqZVcz94DAY?s=cl&p=a&mlu=4&ilr=4"
+               aria-label="Sertai Group WhatsApp LEGEND PRESET">
+              <span class="btn-shine" aria-hidden="true"></span>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              <span>Join Group WhatsApp</span>
+            </a>
+            <a class="btn btn-secondary" href="#peraturan">Lihat Peraturan</a>
+          </div>
+          <div class="hero-meta">
+            <span class="meta-chip"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Moderasi aktif</span>
+            <span class="meta-chip"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>100% percuma</span>
+            <span class="meta-chip"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Kredit pemilik dijaga</span>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <!-- ===== KELEBIHAN ===== -->
+    <section class="container section" id="kelebihan" aria-labelledby="tajuk-kelebihan">
+      <div class="window" data-reveal>
+        <div class="window-bar" aria-hidden="true">
+          <span class="traffic"><i></i><i></i><i></i></span>
+          <span class="window-title">kelebihan <span>— 6 sorotan</span></span>
+        </div>
+        <div class="window-body">
+          <div class="section-head">
+            <span class="eyebrow">01 — Tentang Komuniti</span>
+            <h2 class="section-title" id="tajuk-kelebihan">Apa yang anda dapat di <span class="grad">LEGEND PRESET</span></h2>
+            <p class="section-desc">Bukan sekadar group share link — ini ruang belajar dan bertukar idea sesama editor.</p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card" data-reveal>
+              <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="18.5" cy="5.5" r="1" fill="currentColor"/></svg></div>
+              <h3>Kongsi Preset Sendiri</h3>
+              <p>Muat naik preset hasil kerja anda dan dapatkan feedback membina daripada ahli lain.</p>
+              <span class="feature-tag">Perkongsian</span>
+            </article>
+            <article class="feature-card" data-reveal>
+              <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 01-8 8H4l2-3a8 8 0 1115-5z"/><path d="M9 11h6M9 14h4"/></svg></div>
+              <h3>Request Preset</h3>
+              <p>Cari style tertentu? Request terus — ahli dan admin sedia bantu carikan atau buatkan.</p>
+              <span class="feature-tag">Request Terbuka</span>
+            </article>
+            <article class="feature-card" data-reveal>
+              <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20V4H6.5A2.5 2.5 0 004 6.5v13z"/><path d="M8 8h8M8 12h6"/></svg></div>
+              <h3>Tutorial &amp; Tips</h3>
+              <p>Belajar setting, transition, colour grading dan workflow editing beginner sampai advance.</p>
+              <span class="feature-tag">Belajar</span>
+            </article>
+            <article class="feature-card" data-reveal>
+              <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+              <h3>Kredit Pemilik Dijaga</h3>
+              <p>Preset orang lain wajib beri credit. Dilarang claim atau jual tanpa izin pemilik.</p>
+              <span class="feature-tag">Etika</span>
+            </article>
+            <article class="feature-card" data-reveal>
+              <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+              <h3>Suasana Selamat</h3>
+              <p>Peraturan jelas, spam dan content 18+ dilarang keras. Selesa untuk semua peringkat umur.</p>
+              <span class="feature-tag">Moderasi</span>
+            </article>
+            <article class="feature-card" data-reveal>
+              <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg></div>
+              <h3>Improve Sama-Sama</h3>
+              <p>Join group, perkenalkan diri, dan mula share progress edit anda hari ini.</p>
+              <span class="feature-tag">Grow</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PERATURAN ===== -->
+    <section class="container section" id="peraturan" aria-labelledby="tajuk-peraturan">
+      <div class="window" data-reveal>
+        <div class="window-bar" aria-hidden="true">
+          <span class="traffic"><i></i><i></i><i></i></span>
+          <span class="window-title">peraturan <span>— dibenarkan vs dilarang</span></span>
+        </div>
+        <div class="window-body">
+          <div class="section-head">
+            <span class="eyebrow">02 — Peraturan Group</span>
+            <h2 class="section-title" id="tajuk-peraturan">Peraturan yang <span class="grad">jelas &amp; adil</span></h2>
+            <p class="section-desc">Sila patuhi untuk kekalkan suasana group yang selesa untuk semua ahli.</p>
+          </div>
+          <div class="rules-grid">
+            <article class="rule-pane" data-reveal>
+              <h3><span class="rule-badge ok" aria-hidden="true">✓</span>Digalakkan</h3>
+              <ul class="rule-list ok">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Hormat semua ahli dan admin</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Kongsi tutorial, setting &amp; tips editing</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Beri credit kepada pemilik preset asal</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Jaga suasana group supaya kekal selesa</li>
+              </ul>
+            </article>
+            <article class="rule-pane" data-reveal>
+              <h3><span class="rule-badge no" aria-hidden="true">✕</span>Dilarang Keras</h3>
+              <ul class="rule-list no">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>Sticker, gambar atau video 18+ / lucah</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>Gaduh, menghina atau provoke ahli lain</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>Claim preset orang sebagai hasil sendiri</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>Jual preset orang / spam link tanpa izin admin</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CARA JOIN ===== -->
+    <section class="container section" id="cara-join" aria-labelledby="tajuk-cara">
+      <div class="window" data-reveal>
+        <div class="window-bar" aria-hidden="true">
+          <span class="traffic"><i></i><i></i><i></i></span>
+          <span class="window-title">cara-join <span>— 3 langkah</span></span>
+        </div>
+        <div class="window-body">
+          <div class="section-head">
+            <span class="eyebrow">03 — Cara Sertai</span>
+            <h2 class="section-title" id="tajuk-cara">Sertai dalam <span class="grad">3 langkah</span></h2>
+            <p class="section-desc">Proses pantas — kurang dari seminit untuk mula.</p>
+          </div>
+          <div class="steps">
+            <article class="step-card" data-reveal>
+              <span class="step-num">Langkah 1</span>
+              <h3>Klik butang Join</h3>
+              <p>Tekan mana-mana butang “Join Group WhatsApp” di halaman ini untuk buka jemputan group.</p>
+            </article>
+            <article class="step-card" data-reveal>
+              <span class="step-num">Langkah 2</span>
+              <h3>Perkenalkan diri</h3>
+              <p>Masuk group dan beri salam — nyatakan anda editor baru atau dah berpengalaman.</p>
+            </article>
+            <article class="step-card" data-reveal>
+              <span class="step-num">Langkah 3</span>
+              <h3>Mula berkongsi</h3>
+              <p>Request preset pertama anda, atau kongsi hasil edit untuk dapatkan feedback.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="container section" id="faq" aria-labelledby="tajuk-faq">
+      <div class="window" data-reveal>
+        <div class="window-bar" aria-hidden="true">
+          <span class="traffic"><i></i><i></i><i></i></span>
+          <span class="window-title">settings <span>— soalan lazim</span></span>
+        </div>
+        <div class="window-body">
+          <div class="section-head">
+            <span class="eyebrow">04 — Soalan Lazim</span>
+            <h2 class="section-title" id="tajuk-faq">Soalan <span class="grad">lazim</span></h2>
+          </div>
+          <div class="faq-list">
+            <div class="faq-item" data-reveal>
+              <button class="faq-q" aria-expanded="false">Adakah group ini percuma?<span class="chev" aria-hidden="true">›</span></button>
+              <div class="faq-a"><p>Ya, 100% percuma. Kami melarang keras penjualan preset milik orang lain tanpa izin pemilik asal.</p></div>
+            </div>
+            <div class="faq-item" data-reveal>
+              <button class="faq-q" aria-expanded="false">Saya beginner, boleh join?<span class="chev" aria-hidden="true">›</span></button>
+              <div class="faq-a"><p>Sangat dialu-alukan. Ramai ahli bermula dari zero — anda boleh request preset, tanya soalan dan belajar daripada tutorial yang dikongsi.</p></div>
+            </div>
+            <div class="faq-item" data-reveal>
+              <button class="faq-q" aria-expanded="false">Perlu beri credit kalau guna preset orang?<span class="chev" aria-hidden="true">›</span></button>
+              <div class="faq-a"><p>Wajib. Jika preset milik orang lain, sila beri credit kepada pemilik asal. Dilarang claim sebagai hasil sendiri.</p></div>
+            </div>
+            <div class="faq-item" data-reveal>
+              <button class="faq-q" aria-expanded="false">Boleh iklan / share link luar?<span class="chev" aria-hidden="true">›</span></button>
+              <div class="faq-a"><p>Minta izin admin terlebih dahulu. Spam link, iklan dan sticker berlebihan tidak dibenarkan untuk elak group jadi semak.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="container section" id="sertai" aria-labelledby="tajuk-cta">
+      <div class="window cta-window" data-reveal>
+        <div class="window-bar" aria-hidden="true">
+          <span class="traffic"><i></i><i></i><i></i></span>
+          <span class="window-title">sertai <span>— jemputan group</span></span>
+        </div>
+        <div class="window-body">
+          <img class="cta-logo" src="./Profile_Picture.jpg" alt="" width="168" height="168" loading="lazy">
+          <h2 class="cta-title" id="tajuk-cta">Bersedia untuk <span class="grad">upgrade editing</span> anda?</h2>
+          <p class="cta-desc">Join LEGEND PRESET hari ini — Share • Edit • Learn • Improve bersama komuniti.</p>
+          <a class="btn btn-primary" data-wa-link
+             href="https://chat.whatsapp.com/C8zTy45Ga4wAqZVcz94DAY?s=cl&p=a&mlu=4&ilr=4"
+             aria-label="Sertai Group WhatsApp LEGEND PRESET">
+            <span class="btn-shine" aria-hidden="true"></span>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            <span>Join Group WhatsApp</span>
+          </a>
+          <p class="cta-note">Percuma selamanya • Tiada komitmen • Keluar bila-bila masa</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="footer-brand" href="#beranda" aria-label="LEGEND PRESET — ke atas">
+        <img src="./Profile_Picture.jpg" alt="" width="40" height="40" loading="lazy">
+        <span><b>LEGEND PRESET</b></span>
+      </a>
+      <ul class="footer-links">
+        <li><a href="#kelebihan">Kelebihan</a></li>
+        <li><a href="#peraturan">Peraturan</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a data-wa-link href="https://chat.whatsapp.com/C8zTy45Ga4wAqZVcz94DAY?s=cl&p=a&mlu=4&ilr=4">WhatsApp</a></li>
+      </ul>
+      <div>
+        <p class="footer-copy">© <span id="year">2026</span> LEGEND PRESET. Hak cipta terpelihara.</p>
+        <p class="footer-disclaimer">Komuniti peminat bebas — tidak berafiliasi dengan WhatsApp Inc. atau Apple Inc.</p>
+      </div>
+    </div>
+  </footer>
+
+  <noscript><style>[data-reveal]{opacity:1!important;transform:none!important}.faq-a{max-height:none!important}</style></noscript>
+</body>
+</html>
